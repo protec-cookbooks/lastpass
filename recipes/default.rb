@@ -7,7 +7,7 @@
 # Distributed under BSD licence
 #
 
-unless File.exists? "/tmp/lpinstall/lpchrome_linux.crx" do
+unless File.exists? "/tmp/lpinstall/lpchrome_linux.crx"
     remote_file "/tmp/lplinux.tar.bz2" do
         source "https://lastpass.com/lplinux.tar.bz2"
         mode 0644
