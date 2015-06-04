@@ -11,7 +11,7 @@ unless File.exists? "/tmp/lpinstall/lpchrome_linux.crx"
     remote_file "/tmp/lplinux.tar.bz2" do
         source "https://lastpass.com/lplinux.tar.bz2"
         mode 0644
-        checksum "79f632b80cf08667439ea2a8655fc10054836b2ba0a52087ace50dbd08b72206"
+        checksum "d656d2740d5f4125145e042fd6dbec80bfc466db4e31e9e6ebf2fcfe2cd1c319"
     end
 
     directory "/tmp/lpinstall" do
